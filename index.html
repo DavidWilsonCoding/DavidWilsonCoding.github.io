@@ -3,11 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href='https://fonts.googleapis.com/css2?family=Montserrat&display=swap'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-    <title>Document</title>
+    <script defer src="node_modules/swup/dist/swup.min.js"></script>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.production.css">
+    <title>Welcome</title>
 </head>
-<body>
-    Hello World.  Why isn't my stylesheet working?
+<body class="flex">
+
+  <header class="header">
+    
+    <div class="header__item">
+        <img src="img/coding-caphe-logo.svg" class="header-logo" alt="">
+    </div>
+
+    <nav class="header__item">
+        
+      <ul role="menubar" class="navigation-list">
+        <li role="presentation">
+          <div class="nav-animation-container circleBehind">
+            <a href="/home.html" role="menuitem" class="navigation-list__item navigation-list__item--active" >HOME</a>
+          </div>
+        </li >
+        <li role="presentation">
+          <div class="nav-animation-container circleBehind">
+            <a href="/about.html" role="menuitem" class="navigation-list__item">ABOUT</a>
+          </div>
+        </li>
+        <li role="presentation">
+          <div class="nav-animation-container circleBehind">
+            <a href="/contact.html" role="menuitem" class="navigation-list__item">CONTACT</a>
+          </div>
+        </li>
+        <li role="presentation">
+          <div class="nav-animation-container circleBehind">
+            <a href="/work.html" role="menuitem" class="navigation-list__item">WORK</a>
+          </div>
+        </li>
+        <li role="presentation">
+          <div class="nav-animation-container circleBehind">
+            <a href="/blog.html" role="menuitem" class="navigation-list__item">BLOG</a>
+          </div>
+        </li>
+      </ul>
+
+    </nav>
+
+</header>
+
+<main id="swup" class="transition-fade">
+
+    <div class="welcome">
+        Welcome
+    </div>
+
+    <div class="welcome-logo-container">
+
+      <a href="/home.html">
+
+        <img src="img/coding-caphe-logo.svg" class="welcome-logo" alt="">
+        
+      </a>
+
+    </div>
+
+    <div class="welcome-text">
+        To Cà Phê Coding
+    </div>
+
+    <!-- <h1 class="animate__animated animate__bounce">An animated element</h1> -->
+
+    <!-- <img src="img/duotone (6).png" alt="David's profile photo" class="bottom-right-absolute"> -->
+    
+  </main>
+
+    <footer class="footer">
+
+        <span class="footer__item">Find me on:</span>
+        
+        <div class="social-media">
+    
+        <!-- Github logo -->
+        <img src="img/github-icon-brown-new.svg" class="social-media-images" alt="github">
+        <!-- Twitter logo -->
+        <img src="img/twitterIcon-brown-2.svg" class="social-media-images" alt="twitter">
+        <!-- LinkedIn logo -->
+        <img src="img/LinkedIn-brown.svg" class="social-media-images" alt="linkedin">
+        
+        </div>
+    
+      </footer>     
 </body>
 </html>
