@@ -380,3 +380,27 @@ white: #FFFFFF
   .contact-form-grid__item:last-child {
     grid-column: 1 / 3;
   }
+
+  /* *************************************************************************** */
+  /* ABOUT PAGE STYLING */
+  /* *************************************************************************** */
+
+  .about-contents {
+      display: grid;
+      width: 60vw;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 5fr;
+      text-align: center;
+  }
+
+  .about-contents__item:first-child {
+      grid-column: 1 / 3;
+  }
+
+  .about-contents__item--image {
+      width: 40vw;
+  }
+
+  .about-contents__item:last-child {
+      margin: auto;
+  }
