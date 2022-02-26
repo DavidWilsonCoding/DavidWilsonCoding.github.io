@@ -59,28 +59,32 @@
 
         <h1>How to Contact Me</h1>
         <h2>Please fill out the form below to send a message:</h2>
-      
-        <form action="" method="post" aria-label="contact form">
-            
-            <div id="contact-form-grid">
 
-                <label class="standard-label contact-form-grid__item" for="name"><b>Name: </b></label>
-                <input type="text" class="contact-form-grid__item" id="name" required>
-                
-                <label class="standard-label contact-form-grid__item" for="contact-email"><b>Email: </b></label>
-                <input type="email" class="contact-form-grid__item" id="contact-email" required>
-                
-                <label class="standard-label contact-form-grid__item" for="tel"><b>Telephone: </b></label>
-                <input type="tel" class="contact-form-grid__item" id="tel" [pattern="\d{3}[\-]\d{3}[\-]\d{4}"]>
-                
-                <label class="standard-label contact-form-grid__item" for="message"><b>Message: </b></label>
-                <textarea id="message" class="contact-form-grid__item" maxlength="240" required></textarea>
-                
-                <input type="submit" class="contact-form-grid__item" value="Send message">
+        <div id="contact-container">
 
-            </div>
+          <form action="" method="post" aria-label="contact form">
+              
+              <div id="contact-form-grid">
 
-        </form>
+                  <label class="standard-label contact-form-grid__item" for="name"><b>Name: </b></label>
+                  <input type="text" class="contact-form-grid__item" id="name" required>
+                  
+                  <label class="standard-label contact-form-grid__item" for="contact-email"><b>Email: </b></label>
+                  <input type="email" class="contact-form-grid__item" id="contact-email" required>
+                  
+                  <label class="standard-label contact-form-grid__item" for="tel"><b>Telephone: </b></label>
+                  <input type="tel" class="contact-form-grid__item" id="tel" [pattern="\d{3}[\-]\d{3}[\-]\d{4}"]>
+                  
+                  <label class="standard-label contact-form-grid__item" for="message"><b>Message: </b></label>
+                  <textarea id="message" class="contact-form-grid__item" maxlength="240" required></textarea>
+                  
+                  <input type="submit" class="contact-form-grid__item" value="Send message">
+
+              </div>
+
+          </form>
+
+      </div>
 
     </main>
 
