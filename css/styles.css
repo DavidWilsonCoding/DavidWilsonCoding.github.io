@@ -270,6 +270,8 @@ white: #FFFFFF
     display: block;
     text-align: center;
     font-size: calc(20px + 1.6vw);
+    margin-top: 0.2vh;
+    margin-bottom: 1vh;
   }
   
   .work-grid {
